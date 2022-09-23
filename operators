@@ -103,3 +103,4 @@ x=(x1+x2)/2
 y=(y1+y2)/2
 mid=(x,y)
 print("binoy's house is located at",mid)
+
