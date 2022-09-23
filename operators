@@ -25,3 +25,81 @@ a=int(input())
 b=n//a
 c=n%a
 print(f'the number of students in each team is {b} and left out is {c}')
+
+#sum & difference
+
+a=int(input())
+b=int(input())
+print(a+b)
+print(a-b)
+
+#product and division
+
+a=int(input())
+b=int(input())
+print(a*b)
+print(a//b)
+print(a%b)
+print(a/b)
+
+#swapping of two numbers
+
+a=int(input())
+b=int(input())
+a=a+b
+b=a-b
+a=a-b
+print(a)
+print(b)
+
+#swapping without using third variable
+
+a=int(input())
+b=int(input())
+a,b=b,a
+print(a)
+print(b)
+
+#Alice in wonderland
+
+a=int(input())
+b=a//10
+c=a%10
+print(b+c)
+
+#Area calculation
+
+a=int(input())
+l=int(input())
+b=int(input())
+r=float(input())
+print(a*a)
+print(l*b)
+u=3.14*r*r
+print('%.2f'%u)
+
+#power of a number
+
+x=int(input())
+n=int(input())
+a=pow(x,n)
+print(a)
+
+#simple interest
+
+p=int(input())
+t=int(input())
+r=float(input())
+a=(p*t*r)/100
+print(a)
+
+#three idiots
+
+x1=int(input())
+y1=int(input())
+x2=int(input())
+y2=int(input())
+x=(x1+x2)/2
+y=(y1+y2)/2
+mid=(x,y)
+print("binoy's house is located at",mid)
